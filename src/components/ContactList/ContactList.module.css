@@ -1,0 +1,8 @@
+/* styles/ContactList.module.css */
+.contactList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+    margin: 0 auto;
+}

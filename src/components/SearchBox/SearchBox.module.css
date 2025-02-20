@@ -1,0 +1,10 @@
+/* styles/SearchBox.module.css */
+.searchBox {
+    margin: 20px 0;
+    text-align: center;
+}
+
+input {
+    padding: 5px;
+    width: 200px;
+}

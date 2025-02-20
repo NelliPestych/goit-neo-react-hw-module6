@@ -1,0 +1,32 @@
+/* styles/ContactForm.module.css */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+input {
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-self: center;
+}
+
+button {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
